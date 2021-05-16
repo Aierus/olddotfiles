@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
+    ~/.promptlinex.sh: promptlinex.sh
+
+- create:
+    - ~/downloads
+    - ~/.vim/undo-history
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
