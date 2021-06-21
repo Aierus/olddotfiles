@@ -50,3 +50,9 @@
 [submodule "vim-solidity"]
 	path = vim-solidity
 	url = https://github.com/tomlion/vim-solidity.git
+[submodule "vim-repl"]
+	path = vim-repl
+	url = https://github.com/sillybun/vim-repl
+[submodule "vim-devicons"]
+	path = vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
