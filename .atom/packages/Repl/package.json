@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/repl/versions/0.5.0/tarball",
+  "_id": "Repl@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-80FV/wiTejA6aIf1I1Ib9g8XjI4vGJVeFQujy+EpeXZR+A2O4oA6iRzvNcO8HOcYZENEDYN+Dm7a6itOl1MfPA==",
+  "_location": "/Repl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/repl/versions/0.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/repl/versions/0.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/repl/versions/0.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/repl/versions/0.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/repl/versions/0.5.0/tarball",
+  "_shasum": "f191e8cebab48da7c24d7fd640def42048713daf",
+  "_spec": "https://www.atom.io/api/packages/repl/versions/0.5.0/tarball",
+  "_where": "/private/var/folders/2k/x9vnvxl547x2872dhp26vkgc0000gp/T/apm-install-dir-202081-1581-1ib25vi.0ewu",
+  "activationCommands": {},
+  "bugs": {
+    "url": "https://github.com/T-800/REPL-Nodejs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "event-kit": "1.0.1",
+    "strip-ansi": "2.0.1"
+  },
+  "deprecated": false,
+  "description": "A short description of your package",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/T-800/REPL-Nodejs#readme",
+  "license": "MIT",
+  "main": "./lib/Repl.coffee",
+  "name": "Repl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-800/REPL-Nodejs.git"
+  },
+  "version": "0.5.0"
+}

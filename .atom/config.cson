@@ -1,0 +1,20 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "carbon-ui"
+      "carbon-syntax"
+    ]
+  editor:
+    preferredLineLength: 82
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "9f9533bb-b152-4be4-ab5f-153e64739c95"
+  fonts:
+    fontFamily: "Terminus"
+  "linter-ui-default":
+    showPanel: true
+  welcome:
+    showOnStartup: false

@@ -1,0 +1,53 @@
+{
+  "_from": "https://www.atom.io/api/packages/carbon-syntax/versions/1.0.1/tarball",
+  "_id": "carbon-syntax@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-+lPpqO+t2W4LuGG5NK0H3rVVoVQiCyMOLXdYjT0KgoghcZUZbC9K3uplD8dLEICgyYilunVaSjrthg4FohBDEg==",
+  "_location": "/carbon-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/carbon-syntax/versions/1.0.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/carbon-syntax/versions/1.0.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/carbon-syntax/versions/1.0.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/carbon-syntax/versions/1.0.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/carbon-syntax/versions/1.0.1/tarball",
+  "_shasum": "92b233f94a1024b8ff4be504d2bb28d56d2af648",
+  "_spec": "https://www.atom.io/api/packages/carbon-syntax/versions/1.0.1/tarball",
+  "_where": "/private/var/folders/2k/x9vnvxl547x2872dhp26vkgc0000gp/T/apm-install-dir-2021415-9587-15us4en.l3zj",
+  "bugs": {
+    "url": "https://github.com/nathanbuchar/atom-carbon-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A minimal gray syntax theme based on the Spacegray theme for Sublime by Gadzhi Kharkharov.",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nathanbuchar/atom-carbon-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "carbon",
+    "space",
+    "gray",
+    "grey",
+    "spacegray",
+    "dark",
+    "clean",
+    "minimal"
+  ],
+  "license": "MIT",
+  "name": "carbon-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanbuchar/atom-carbon-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.1"
+}
