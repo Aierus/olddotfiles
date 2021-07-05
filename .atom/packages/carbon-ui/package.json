@@ -1,0 +1,53 @@
+{
+  "_from": "https://www.atom.io/api/packages/carbon-ui/versions/1.0.3/tarball",
+  "_id": "carbon-ui@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-sU4cSpQIueiwyaKLHeG+BlkshSWMezqxORggFIjT+95spkfitANTlMGx0GLGIcE7nWurAi0HYWZdukdMeb6j0A==",
+  "_location": "/carbon-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/carbon-ui/versions/1.0.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/carbon-ui/versions/1.0.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/carbon-ui/versions/1.0.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/carbon-ui/versions/1.0.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/carbon-ui/versions/1.0.3/tarball",
+  "_shasum": "f65f76d8cce7cb4adf2fca76b03a076b8c35e417",
+  "_spec": "https://www.atom.io/api/packages/carbon-ui/versions/1.0.3/tarball",
+  "_where": "/private/var/folders/2k/x9vnvxl547x2872dhp26vkgc0000gp/T/apm-install-dir-2021415-9522-m1p2nk.md7t",
+  "bugs": {
+    "url": "https://github.com/nathanbuchar/atom-carbon-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A minimal gray UI theme based on the Spacegray theme for Sublime by Gadzhi Kharkharov.",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nathanbuchar/atom-carbon-ui#readme",
+  "keywords": [
+    "ui",
+    "theme",
+    "carbon",
+    "space",
+    "gray",
+    "grey",
+    "spacegray",
+    "dark",
+    "clean",
+    "minimal"
+  ],
+  "license": "MIT",
+  "name": "carbon-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanbuchar/atom-carbon-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.0.3"
+}

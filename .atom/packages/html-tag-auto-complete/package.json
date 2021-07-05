@@ -1,0 +1,62 @@
+{
+  "_from": "https://www.atom.io/api/packages/html-tag-auto-complete/versions/2.1.0/tarball",
+  "_id": "html-tag-auto-complete@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dJC8G7LBmiPSgF2MXkitI8Z8pyimVlVPl4djfjwCe1M86lLtlzPhb9jyE40j2eTh63iHZlzHOnKvl7jcg+UwQQ==",
+  "_location": "/html-tag-auto-complete",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/html-tag-auto-complete/versions/2.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/html-tag-auto-complete/versions/2.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/html-tag-auto-complete/versions/2.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/html-tag-auto-complete/versions/2.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/html-tag-auto-complete/versions/2.1.0/tarball",
+  "_shasum": "9683c452954ca20208c190a94326998a3dad5e34",
+  "_spec": "https://www.atom.io/api/packages/html-tag-auto-complete/versions/2.1.0/tarball",
+  "_where": "/private/var/folders/2k/x9vnvxl547x2872dhp26vkgc0000gp/T/apm-install-dir-2021416-23768-7siyl4.fu6so",
+  "activationCommands": {
+    "atom-workspace": "html-tag-auto-complete:run"
+  },
+  "author": {
+    "name": "Munim Dibosh"
+  },
+  "bugs": {
+    "url": "https://github.com/dibosh/html-tag-auto-complete/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "html-tags": "^3.1.0"
+  },
+  "deprecated": false,
+  "description": "A simple auto completion of html tags with class and/or id",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/dibosh/html-tag-auto-complete#readme",
+  "keywords": [
+    "atom-plugin",
+    "atom",
+    "auto-complete",
+    "emmet",
+    "html",
+    "html tag",
+    "tag auto complete",
+    "tag auto complete with class",
+    "tag auto complete with id",
+    "tag auto complete with class and id"
+  ],
+  "license": "MIT",
+  "main": "./lib/html-tag-auto-complete",
+  "name": "html-tag-auto-complete",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dibosh/html-tag-auto-complete.git"
+  },
+  "version": "2.1.0"
+}

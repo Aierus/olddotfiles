@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-react-autocomplete/versions/0.1.10/tarball",
+  "_id": "atom-react-autocomplete@0.1.10",
+  "_inBundle": false,
+  "_integrity": "sha512-VvtNIyUO9DdPLrZTzJGDJ6OCmxxdISSrC0Ml8K0tE6tkVGSK0p3PcT8Rq5EU6gBaGrtBc6TvgdF1ytFL2Z/4cQ==",
+  "_location": "/atom-react-autocomplete",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-react-autocomplete/versions/0.1.10/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-react-autocomplete/versions/0.1.10/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-react-autocomplete/versions/0.1.10/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-react-autocomplete/versions/0.1.10/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-react-autocomplete/versions/0.1.10/tarball",
+  "_shasum": "f6ae314526b6f6af5939820ea41916f64cb42a34",
+  "_spec": "https://www.atom.io/api/packages/atom-react-autocomplete/versions/0.1.10/tarball",
+  "_where": "/private/var/folders/2k/x9vnvxl547x2872dhp26vkgc0000gp/T/apm-install-dir-2021510-91405-qs45kb.pkko",
+  "author": {
+    "name": "David Wells"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidWells/atom-react-autocomplete/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-docgen": "^2.9.1",
+    "yargs": "^4.7.1"
+  },
+  "deprecated": false,
+  "description": "Autocomplete React component props without static typing",
+  "engines": {
+    "atom": "*"
+  },
+  "homepage": "https://github.com/DavidWells/atom-react-autocomplete#readme",
+  "license": "MIT",
+  "main": "./lib/main.js",
+  "name": "atom-react-autocomplete",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidWells/atom-react-autocomplete.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.10"
+}
