@@ -3,7 +3,7 @@ if &compatible
   " `-u` argument. Override this.
   set nocompatible
 endif
-set laststatus=2 
+set laststatus=2
 
 " Syntax highlighting
 syntax on
@@ -33,7 +33,6 @@ Plug 'junegunn/gv.vim'
 
 " comment plugins
 Plug 'tpope/vim-commentary'
-Plug 'preservim/nerdcommenter'
 
 " writing plugins
 Plug 'junegunn/limelight.vim'
@@ -51,15 +50,15 @@ Plug 'rust-lang/rust.vim'
 Plug 'tomlion/vim-solidity'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'davidhalter/jedi-vim'
-Plug 'ycm-core/YouCompleteMe' 
+
 
 " python REPL
 Plug 'sillybun/vim-repl'
 Plug 'fisadev/vim-isort'
 
 " file navigation
-Plug 'scrooloose/nerdtree' 
-Plug 'ryanoasis/vim-devicons' 
+Plug 'scrooloose/nerdtree'
+Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
@@ -69,7 +68,7 @@ call plug#end()
 " etc
 set ignorecase
 set encoding=utf-8
-set showcmd 
+set showcmd
 let mapleader=","
 let g:mapleader=","
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
@@ -84,8 +83,8 @@ set autoindent " smart indent
 set showtabline=0  " always show tablines
 set number " line numbers
 set backspace=2
-nnoremap <C-Left> :tabprevious<CR> 
-nnoremap <C-Right> :tabnext<CR> 
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
 
 " full-stack dev
 au BufNewFile,BufRead *.js, *.html, *.css
@@ -95,7 +94,7 @@ au BufNewFile,BufRead *.js, *.html, *.css
 
 " airline config
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1 
+let g:airline_powerline_fonts = 1
 
 " python highlight all
 let g:python_highlight_all = 1

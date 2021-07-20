@@ -1,4 +1,4 @@
-source ~/.promptlinex.sh
+source ~/.promptline.sh
 
 # opam configuration OCaml
 test -r /Users/andyclark1/.opam/opam-init/init.zsh && . /Users/andyclark1/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
@@ -41,12 +41,27 @@ alias df='df -h'                                                # Human-readable
 alias free='free -m'                                            # Show sizes in MB
 alias gitu='git add . && git commit && git push'
 WORDCHARS=${WORDCHARS//\/[&.;]}                                 # Don't consider certain characters part of the word
+# pacman and yay
+alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
+alias yaysua='yay -Sua --noconfirm'              # update only AUR pkgs (yay)
+alias yaysyu='yay -Syu --noconfirm'              # update standard pkgs and AUR pkgs (yay)
+# confirm before overwriting something
+alias cp="cp -i"
+alias mv='mv -i'
+alias rm='rm -i'
+alias merge='xrdb -merge ~/.Xresources' #Merge .Xresources
+alias jctl="journalctl -p 3 -xb" #get error messages from journalctl
 
 # meson ninja PATH
 export PATH=$PATH:/Users/andyclark1/Library/Python/3.8/bin
 
-# Remap ls to exa for color in filetype
-alias ls="exa -a"
+# Remap ls to exa
+alias ls='exa -al --color=always --group-directories-first' # my preferred listing
+alias la='exa -a --color=always --group-directories-first'  # all files and dirs
+alias ll='exa -l --color=always --group-directories-first'  # long format
+alias lt='exa -aT --color=always --group-directories-first' # tree listing
+alias l.='exa -a | egrep "^\."'
+
 
 ## substituted out in favor of promptline.vim ('/edkolev/promptline.vim')
 ## make prompt cleaner
@@ -65,6 +80,7 @@ zstyle :compinstall filename '/Users/andyclark1/.zshrc'
 
 autoload -Uz compinit
 compinit
+kitty + complete setup zsh | source /dev/stdin
 # End of lines added by compinstall
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -95,3 +111,5 @@ bindkey '^[[Z' undo          					# Shift+tab undo last action
 
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
+export SYSTEMD_EDITOR=vim
+export BROWSER=chromium
