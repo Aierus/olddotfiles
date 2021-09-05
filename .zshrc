@@ -36,10 +36,15 @@ setopt HIST_REDUCE_BLANKS
 # alias for useful things
 alias py="python3"
 alias pip="pip3"
+alias lf="ranger"
 alias cp="cp -i"                                                # Confirm before overwriting something
 alias df='df -h'                                                # Human-readable sizes
-alias free='free -m'                                            # Show sizes in MB
+alias free='free -mh'                                            # Show sizes in MB
 alias gitu='git add . && git commit && git push'
+alias tos='exec thinkorswim/thinkorswim'
+alias pic='scrot -s'
+alias website='ssh root@andyrclark.com'
+alias grafana='kubectl -n default port-forward monitoring-grafana-656dbff547-fcpsx 3000'
 WORDCHARS=${WORDCHARS//\/[&.;]}                                 # Don't consider certain characters part of the word
 # pacman and yay
 alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
@@ -51,6 +56,8 @@ alias mv='mv -i'
 alias rm='rm -i'
 alias merge='xrdb -merge ~/.Xresources' #Merge .Xresources
 alias jctl="journalctl -p 3 -xb" #get error messages from journalctl
+alias icat="kitty +kitten icat"
+
 
 # meson ninja PATH
 export PATH=$PATH:/Users/andyclark1/Library/Python/3.8/bin
@@ -109,7 +116,10 @@ zstyle ':completion:*' cache-path ~/.zsh/cache
 bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
 bindkey '^[[Z' undo          					# Shift+tab undo last action
 
+export GOPATH=$HOME/.local/share/go
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
 export SYSTEMD_EDITOR=vim
 export BROWSER=chromium
+
+source <(kubectl completion zsh)
