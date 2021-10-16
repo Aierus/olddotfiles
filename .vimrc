@@ -10,6 +10,7 @@ syntax on
 colo gruvbox
 set t_Co=256
 set bg=dark
+let &t_ut=''
 
 call plug#begin('~/.vim/plugged')
 

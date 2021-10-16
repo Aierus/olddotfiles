@@ -14,7 +14,7 @@ PATH="/usr/local/opt/python@3.8/bin:$PATH"
 PATH=$PATH:$HOME/.npm-global/bin
 
 ## make prompt cleaner
-PROMPT='%~ %# '
+PROMPT='%F{green}%2~ %# '
 RPROMPT='%*'
 ZLE_RPTOMPT_INDENT=0
 
@@ -37,14 +37,21 @@ setopt HIST_REDUCE_BLANKS
 alias py="python3"
 alias pip="pip3"
 alias lf="ranger"
-alias cp="cp -i"                                                # Confirm before overwriting something
 alias df='df -h'                                                # Human-readable sizes
-alias free='free -mh'                                            # Show sizes in MB
+alias free='ncdu'                                            # Show sizes in MB
 alias gitu='git add . && git commit && git push'
 alias tos='exec thinkorswim/thinkorswim'
 alias pic='scrot -s'
-alias website='ssh root@andyrclark.com'
-alias grafana='kubectl -n default port-forward monitoring-grafana-656dbff547-fcpsx 3000'
+alias theme-reset="kitty @ --to unix:/tmp/kitty set-colors --reset"
+alias theme="cd ~/.config/kitty/themes && fzf --preview 'head -n 40 {} && kitty @ --to unix:/tmp/kitty set-colors -a -c {}'; cd -"
+alias pacman -S="noglob sudo pacman" 
+alias spac"sudo pacman"
+alias icat="kitty +kitten icat"
+alias cp="sudo cp -i"
+alias mv="sudo mv -i"
+alias rm="sudo rm -1"
+
+
 WORDCHARS=${WORDCHARS//\/[&.;]}                                 # Don't consider certain characters part of the word
 # pacman and yay
 alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
@@ -121,5 +128,3 @@ export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim
 export SYSTEMD_EDITOR=vim
 export BROWSER=chromium
-
-source <(kubectl completion zsh)
